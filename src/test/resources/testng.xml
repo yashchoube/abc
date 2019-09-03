@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite thread-count="1" verbose="1" name="Flipkart" annotations="JDK" parallel="tests">
+         
+  <test name="flipkartus1">
+	 <classes>
+	   <class name="com.rd.epam.Flipkart.testCases.LoginPageTest"/>
+	 </classes>
+   </test>
+   <test name="flipkartus2">
+	 <classes>
+	   <class name="com.rd.epam.Flipkart.testCases.SearchTest"/>
+	 </classes>
+   </test>
+   <test name="flipkartus3">
+	 <classes>
+	   <class name="com.rd.epam.Flipkart.testCases.SortFilterTest"/>
+	 </classes>
+   </test>
+   <test name="flipkartus4">
+	 <classes>
+	   <class name="com.rd.epam.Flipkart.testCases.AddToCartPageTest"/>
+	 </classes>
+   </test>
+</suite>
